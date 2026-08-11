@@ -154,3 +154,4 @@ The following are explicitly **not implemented**:
 - Production deployment (Docker, CI/CD)
 - Review/comment system
 - Custom admin panel (Django's built-in admin is available at `/admin/`)
+# doctor-appointment-booking
