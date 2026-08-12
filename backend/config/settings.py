@@ -18,6 +18,13 @@ DEBUG = os.getenv('DEBUG', 'True').lower() in ('true', '1', 'yes')
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.up.railway.app',
+    'https://doctor-appointment-booking-production-dc13.up.railway.app',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
